@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f3f5f8;
+}
+
+.container {
+    border: 1px solid #c7d0db;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+    text-align: right;
+    border-radius: 12px;
+    margin: 20px 20px;
+}
+
+main {}
+
+.header-section {
+    background-color: #1b314d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.header-section a {
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    font-size: 24px;
+}
+
+.page-title-in-header {}
+
+.first-title {
+    font-size: 27px;
+    color: #1b314d;
+}
+
+.default-text {
+    font-size: 18px;
+    color: #1d242f;
+    font-weight: 460;
+}
+
+
+
+/* .activity-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} */
+.single-line-activity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px;
+    border: 1px #f4f6f9 solid;
+    border-right: 5px #1d242f solid;
+    padding: 20px;
+    background-color: #f4f6f9;
+}
+
+.default-title {
+    color: #2b4a6e;
+    font-size: 22px;
+}
+
+.second-title {
+    color: #1d242f;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #a0b2c6;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #1d242f;
+    text-align: right;
+}
+
+th {
+      background-color: #d6e1ed;
+    font-weight: bold;
+    color: #1d242f;
+}
+.sub-text{
+    color: #555;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: justify;
+}
