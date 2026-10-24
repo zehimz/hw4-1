@@ -74,12 +74,13 @@ nav {
 .default-title {
     color: #2b4a6e;
     font-size: 22px;
+    padding-right: 15px;
 }
 
 .second-title {
     color: #1d242f;
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 600;   
 }
 
 table {
@@ -110,4 +111,20 @@ th {
     font-size: 14px;
     line-height: 1.8;
     text-align: justify;
+}
+.form-section{
+padding: 20px;
+}
+.input-wrapper{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input{
+    background-color: #fafbfe;
+    border: 2px solid #d4dbe4;
+    border-radius: 10px;
+    width: 100%;
+    height: 7vh;
 }
