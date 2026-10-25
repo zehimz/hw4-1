@@ -9,6 +9,16 @@ body {
     background-color: #f3f5f8;
 }
 
+/* Form tags styles */
+
+select,
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: 14px;
+}
+
 .container {
     border: 1px solid #c7d0db;
     background-color: #fff;
@@ -80,7 +90,7 @@ nav {
 .second-title {
     color: #1d242f;
     font-size: 19px;
-    font-weight: 600;   
+    font-weight: 600;
 }
 
 table {
@@ -102,29 +112,91 @@ td {
 }
 
 th {
-      background-color: #d6e1ed;
+    background-color: #d6e1ed;
     font-weight: bold;
     color: #1d242f;
 }
-.sub-text{
+
+.sub-text {
     color: #555;
     font-size: 14px;
     line-height: 1.8;
     text-align: justify;
 }
-.form-section{
-padding: 20px;
+
+.form-section {
+    padding: 20px;
 }
-.input-wrapper{
+
+.input-wrapper {
     margin: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.input{
+
+.input {
     background-color: #fafbfe;
     border: 2px solid #d4dbe4;
     border-radius: 10px;
     width: 100%;
-    height: 7vh;
+    padding: 10px;
+    outline: none;
+
+}
+
+
+/* style for field label top of the radio */
+
+.field-label {
+    background-color: #fff;
+    padding: 0 10px;
+    margin-bottom: -14px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+}
+
+.input-size {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fafbfe;
+    border: 2px solid #d4dbe4;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 10px;
+    /* padding from field label  */
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ejbari {
+    color: #2b4a6e;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ekhtiari {
+    color: #777777;
+
+    font-size: 14px;
+}
+.textarea{
+    min-height: 150px;
+     resize: vertical; /*text box resize */
 }
