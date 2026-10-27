@@ -124,6 +124,7 @@ th {
     text-align: justify;
 }
 
+
 .form-section {
     padding: 20px;
 }
@@ -199,4 +200,41 @@ th {
 .textarea{
     min-height: 150px;
      resize: vertical; /*text box resize */
+}
+.privacy{
+    background-color: #ece7dc;
+    border: 1px solid #dfc8a0;
+   border-right: 5px #b07929  solid;
+    padding: 20px;
+    line-height: 2;
+    text-align: right;
+    margin: 20px 20px;
+}
+
+.submit{
+    background-color: #1b314d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+     margin: 20px 20px;
+}
+
+.contact a{
+padding-right: 15px;
+color:#1b314d ;
+font-size: 17px; 
+font-weight: 500;
+}
+hr{
+    color: grey;
+}
+footer{
+    padding-right: 15px;
+    font-size: 20px;
+    color: #555;
+     margin: 20px 20px;
+}
+.rule-check{
+     margin: 20px 20px;
 }
