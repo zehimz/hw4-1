@@ -19,6 +19,7 @@ button {
     font-size: 14px;
 }
 
+
 .container {
     border: 1px solid #c7d0db;
     background-color: #fff;
@@ -29,7 +30,26 @@ button {
     margin: 20px 20px;
 }
 
-main {}
+/* main {
+    ;
+} */
+.desktop-layout {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.right-section {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section {
+    max-width: 700px;
+}
 
 .header-section {
     background-color: #1b314d;
@@ -197,44 +217,105 @@ th {
 
     font-size: 14px;
 }
-.textarea{
+
+.textarea {
     min-height: 150px;
-     resize: vertical; /*text box resize */
+    resize: vertical;
+    /*text box resize */
 }
-.privacy{
+
+.privacy {
     background-color: #ece7dc;
     border: 1px solid #dfc8a0;
-   border-right: 5px #b07929  solid;
+    border-right: 5px #b07929 solid;
     padding: 20px;
     line-height: 2;
     text-align: right;
     margin: 20px 20px;
 }
 
-.submit{
+.submit {
     background-color: #1b314d;
     color: #fff;
     padding: 20px;
     border-radius: 15px;
     font-size: 18px;
-     margin: 20px 20px;
+    margin: 20px 20px;
 }
 
-.contact a{
-padding-right: 15px;
-color:#1b314d ;
-font-size: 17px; 
-font-weight: 500;
+.contact a {
+    padding-right: 15px;
+    color: #1b314d;
+    font-size: 17px;
+    font-weight: 500;
 }
-hr{
+
+hr {
     color: grey;
 }
-footer{
+
+footer {
     padding-right: 15px;
     font-size: 20px;
     color: #555;
-     margin: 20px 20px;
+    margin: 20px 20px;
 }
-.rule-check{
-     margin: 20px 20px;
+
+.rule-check {
+    margin: 20px 20px;
+}
+
+@media (max-width: 360px) {
+
+    /* scroll table */
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .first-title {
+        font-size: 20px;
+    }
+
+    .default-title {
+        font-size: 18px;
+    }
+    footer{
+        text-align: center;
+    }
+    .page-title-in-header{
+        font-size: 19px;
+        text-align: center;
+    }
+    .header-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop-layout {
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+    }
+    .page-title-in-header{
+        font-size: 19px;
+        text-align: center;
+    }
+    .header-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
